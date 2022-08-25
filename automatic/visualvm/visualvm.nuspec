@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>visualvm</id>
+    <version>{{PackageVersion}}</version>
+    <packageSourceUrl>https://github.com/mkoertgen/chocolatey-packages/tree/main/automatic/visualvm</packageSourceUrl>
+    <owners>Marcel Körtgen</owners>
+    <title>visualvm (Install)</title>
+    <authors>Oracle</authors>
+    <projectUrl>https://visualvm.github.io/</projectUrl>
+    <iconUrl>https://visualvm.github.io/images/visualvm_logo_small.png</iconUrl>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>-->
+    <projectSourceUrl>https://github.com/oracle/visualvm</projectSourceUrl>
+    <docsUrl>https://visualvm.github.io/documentation.html</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/oracle/visualvm/issues</bugTrackerUrl>
+    <tags>visualvm java jdk</tags>
+    <summary>VisualVM is a visual tool integrating commandline JDK tools and lightweight profiling capabilities.
+Designed for both development and production time use.</summary>
+    <description><![CDATA[ 
+
+**Please Note**: This is an automatically updated package. If you find it is
+out of date by more than a day or two, please contact the maintainer(s) and
+let them know the package is no longer updating correctly.
+]]>
+</description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
