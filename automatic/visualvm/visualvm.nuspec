@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>visualvm</id>
-    <version>{{PackageVersion}}</version>
+    <version>2.1.4</version>
     <packageSourceUrl>https://github.com/mkoertgen/chocolatey-packages/tree/main/automatic/visualvm</packageSourceUrl>
     <owners>Marcel Körtgen</owners>
     <title>visualvm (Install)</title>
@@ -23,9 +23,7 @@ Designed for both development and production time use.</summary>
 **Please Note**: This is an automatically updated package. If you find it is
 out of date by more than a day or two, please contact the maintainer(s) and
 let them know the package is no longer updating correctly.
-]]>
-</description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+]]></description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

@@ -7,7 +7,7 @@ $domain   = 'https://github.com'
 $releases = "$domain/oracle/visualvm/releases/latest"
 
 function global:au_BeforeUpdate {
-  Get-RemoteFiles -Purge -NoSuffix -FileNameBase "kompose"
+  Get-RemoteFiles -Purge -NoSuffix -FileNameBase "visualvm"
 }
 
 function global:au_SearchReplace {
@@ -24,14 +24,16 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
   $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-  $re = '\.exe$'
+  $re = '\.zip$'
   $url = $download_page.links | ? href -match $re | % href | select -First 1
 
-  $version = (Split-Path ( Split-Path $url ) -Leaf).Substring(1)
+  #Write-Host $url
+
+  $version = (Split-Path ( Split-Path $url ) -Leaf)
 
   return @{
     Version     = $version
-    URL64       = $url
+    URL64       = "$domain/$url"
     ReleaseURL  = "$domain/oracle/visualvm/releases/tag/${version}"
   }
 }
