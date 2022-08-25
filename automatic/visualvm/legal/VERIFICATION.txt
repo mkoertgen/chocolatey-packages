@@ -8,7 +8,7 @@ location on <https://github.com/oracle/visualvm/releases/tag/2.1.4>
 and can be verified by doing the following:
 
 1. Download the following:
-  software: <https://github.com/oracle/visualvm/releases/download/2.1.4/visualvm_214.zip>
+  software: <https://github.com//oracle/visualvm/releases/download/2.1.4/visualvm_214.zip>
 
 2. Get the checksum using one of the following methods:
   - Using powershell function 'Get-FileHash'
