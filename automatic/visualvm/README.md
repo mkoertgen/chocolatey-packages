@@ -1,4 +1,4 @@
-﻿# <img src="https://visualvm.github.io/images/visualvm_logo_small.png" width="111" height="29"/> [VisualVM](https://chocolatey.org/packages/visualvm)
+# <img src="https://cdn.jsdelivr.net/gh/git@github.com:mkoertgen/chocolatey-packages@709503ea5ea8c37a77b157a69b817fa2b3c3f0db/icons/visualvm.png" width="111" height="29"/> [VisualVM](https://chocolatey.org/packages/visualvm)
 
 VisualVM is a visual tool integrating commandline JDK tools and lightweight profiling capabilities.
 Designed for both development and production time use.
