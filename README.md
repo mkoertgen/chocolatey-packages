@@ -40,5 +40,25 @@ Install-Module au, wormies-au-helpers
 ### Update packages
 
 ```powershell
+# Update all packages
 .\update_all.ps1
+
+# Update an invidual package
+cd .\automatic\visualvm\
+.\update.ps1
+# This should build package like 'visualvm.2.1.4.nupkg'
+```
+
+### Push packages
+
+Make sure your api key is configured. You can find it on your [Chocolatey Account](https://community.chocolatey.org/account)
+
+```powershell
+choco apikey -k <key> -s https://push.chocolatey.org/
+```
+
+To push the updated package, just use the following command (in the directory of your built package):
+
+```powershell
+Push-Package
 ```
