@@ -10,6 +10,7 @@
 - [Development](#development)
   - [Prerequisites](#prerequisites)
   - [Update packages](#update-packages)
+  - [Push packages](#push-packages)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
