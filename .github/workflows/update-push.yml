@@ -24,3 +24,4 @@ jobs:
           ./update_all.ps1
         env:
           au_push: "true"
+          github_api_key: ${{ secrets.GITHUB_TOKEN }}
