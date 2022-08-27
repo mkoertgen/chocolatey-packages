@@ -15,6 +15,6 @@ jobs:
       - name: Update Packages
         shell: pwsh
         run: |
-          ./update-all.ps1
+          ./update_all.ps1
         env:
           au_push: "true"
