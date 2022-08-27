@@ -17,8 +17,7 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          #Install-Module au, wormies-au-helpers
-          Install-Module au
+          Install-Module au, wormies-au-helpers
       - name: Update Packages
         shell: pwsh
         run: |
