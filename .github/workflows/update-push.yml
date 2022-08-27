@@ -16,5 +16,5 @@ jobs:
         shell: pwsh
         run: |
           .\update-all.ps1
-        with:
+        env:
           au_push: "true"
