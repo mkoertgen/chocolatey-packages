@@ -1,0 +1,20 @@
+name: TOC Generator
+on:
+  # push:
+  #   branches:
+  #     - main
+  #--- TODO: For now also enable manual runs
+  workflow_dispatch:
+
+jobs:
+  update-all:
+    name: Update All Packages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update Packages
+        shell: pwsh
+        run: |
+          .\update-all.ps1
+        with:
+          au_push: "true"

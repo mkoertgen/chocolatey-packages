@@ -24,6 +24,7 @@
 ## Description
 
 This repository contains Chocolatey packages, most of which are [automatically](https://docs.chocolatey.org/en-us/create/automatic-packages) updated.
+It is updated from [chocolatey-community/chocolatey-packages](https://github.com/chocolatey-community/chocolatey-packages) and will probably merged back at some point in the future.
 
 **All packages in this repository should conform with the [contributing guidelines](CONTRIBUTING.md).** Contributions that follow the guideliness are welcome.
 All packages in this repository are expected to be installable with any version of Chocolatey being made available in the past 12 months, unless a dependency on Chocolatey has been added.
