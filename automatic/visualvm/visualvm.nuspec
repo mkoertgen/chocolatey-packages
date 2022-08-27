@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>visualvm</id>
-    <version>2.1.4.20220825</version>
+    <version>2.1.4</version>
     <packageSourceUrl>https://github.com/mkoertgen/chocolatey-packages/tree/main/automatic/visualvm</packageSourceUrl>
     <owners>Marcel Körtgen</owners>
     <title>visualvm (Install)</title>
@@ -10,6 +10,7 @@
     <projectUrl>https://visualvm.github.io/</projectUrl>
     <iconUrl>https://visualvm.github.io/images/visualvm_logo_small.png</iconUrl>
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <releaseNotes></releaseNotes>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/oracle/visualvm</projectSourceUrl>
     <docsUrl>https://visualvm.github.io/documentation.html</docsUrl>

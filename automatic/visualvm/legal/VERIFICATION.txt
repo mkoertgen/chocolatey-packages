@@ -8,7 +8,7 @@ location on <https://github.com/oracle/visualvm/releases/tag/2.1.4>
 and can be verified by doing the following:
 
 1. Download the following:
-  software: <https://github.com//oracle/visualvm/releases/download/2.1.4/visualvm_214.zip>
+  software: <https://github.com/oracle/visualvm/releases/download/2.1.4/visualvm_214.zip>
 
 2. Get the checksum using one of the following methods:
   - Using powershell function 'Get-FileHash'
@@ -16,7 +16,7 @@ and can be verified by doing the following:
 
 3. The checksums should match the following:
 
-  checksum type: 
-  checksum: BF6C116FD868F8C6F15AF3F6E9B5454F21CFFFD7A5ECFBB6C653E278AC400F7D
+  checksum type: sha256
+  checksum: bf6c116fd868f8c6f15af3f6e9b5454f21cfffd7a5ecfbb6c653e278ac400f7d
 
 The file 'LICENSE.txt' has been obtained from <https://github.com/oracle/visualvm/blob/2.1.4/LICENSE>
