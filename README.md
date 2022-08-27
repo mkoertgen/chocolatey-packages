@@ -1,5 +1,7 @@
 # Chocolatey Packages
 
+[![Update Packages](https://github.com/mkoertgen/chocolatey-packages/actions/workflows/update-push.yml/badge.svg)](https://github.com/mkoertgen/chocolatey-packages/actions/workflows/update-push.yml)
+
 <!-- markdownlint-disable -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
