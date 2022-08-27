@@ -12,6 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Install Dependencies
+        # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-powershell#installing-dependencies
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module au, wormies-au-helpers
       - name: Update Packages
         shell: pwsh
         run: |
