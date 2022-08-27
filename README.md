@@ -36,7 +36,8 @@ All packages in this repository are expected to be installable with any version 
 From an administrative powershell install the following:
 
 ```powershell
-Install-Module au, wormies-au-helpers
+#Install-Module au , wormies-au-helpers
+Install-Module au
 ```
 
 ### Update packages
