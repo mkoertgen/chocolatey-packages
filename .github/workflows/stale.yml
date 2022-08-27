@@ -1,8 +1,8 @@
-name: 'Stale Issue and PR Cleanup'
+name: "Stale Issue and PR Cleanup"
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 4 * * *'
+  # schedule:
+  #   - cron: '0 4 * * *'
 
 permissions:
   issues: write
@@ -21,13 +21,13 @@ jobs:
           exempt-all-assignees: true
           exempt-draft-pr: true
           stale-issue-label: Pending closure
-          stale-pr-label: '0 - Waiting on User'
-          only-pr-labels: '0 - Waiting on User'
+          stale-pr-label: "0 - Waiting on User"
+          only-pr-labels: "0 - Waiting on User"
           close-issue-label: Unresolved
-          close-pr-label: 'Unresolved'
-          exempt-issue-labels: 'Security / CVE,0 - Backlog,1 - Ready for work,2 - Working, 3 - Review, 5 - Push required'
-          exempt-pr-labels: 'Security / CVE'
-          labels-to-remove-when-unstale: '0 - Wating on User,Pending closure'
+          close-pr-label: "Unresolved"
+          exempt-issue-labels: "Security / CVE,0 - Backlog,1 - Ready for work,2 - Working, 3 - Review, 5 - Push required"
+          exempt-pr-labels: "Security / CVE"
+          labels-to-remove-when-unstale: "0 - Wating on User,Pending closure"
           stale-issue-message: |
             Is this still relevant? If so, what is blocking it? Is there anything you can do to help move it forward?
             This issue will be closed in 14 days if it continues to be inactive.

@@ -1,8 +1,9 @@
 name: TOC Generator
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   generateTOC:
@@ -17,5 +18,5 @@ jobs:
           CREATE_PR: true
           TARGET_PATHS: "README*.md,CONTRIBUTING*.md"
           FOLDING: true
-          COMMIT_MESSAGE: '(docs) Update TOC'
-          PR_TITLE: '(docs) Update TOC (${PR_MERGE_REF})'
+          COMMIT_MESSAGE: "(docs) Update TOC"
+          PR_TITLE: "(docs) Update TOC (${PR_MERGE_REF})"
