@@ -1,8 +1,8 @@
 name: Update Packages
 on:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches: ["main"]
+    paths: ["automatic/**", "!**/*.md"]
   #--- TODO: For now also enable manual runs
   workflow_dispatch:
 
@@ -24,4 +24,7 @@ jobs:
           ./update_all.ps1
         env:
           au_push: "true"
+          github_user_reponame: ${{ github.repository }}
           github_api_key: ${{ secrets.GITHUB_TOKEN }}
+          gist_id: 566db9ad4a81bc3d4d392cd7ec8b4ade
+          #gist_id_test: 566db9ad4a81bc3d4d392cd7ec8b4ade
