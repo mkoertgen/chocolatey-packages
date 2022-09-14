@@ -52,6 +52,9 @@ Install-Module au , wormies-au-helpers
 cd .\automatic\visualvm\
 .\update.ps1
 # This should build package like 'visualvm.2.1.4.nupkg'
+
+# Force update of an invidual package
+$au_Force = $true; .\update.ps1
 ```
 
 ### Push packages
