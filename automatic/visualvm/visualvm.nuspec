@@ -10,7 +10,7 @@
     <projectUrl>https://visualvm.github.io/</projectUrl>
     <iconUrl>https://visualvm.github.io/images/visualvm_logo_small.png</iconUrl>
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
-    <releaseNotes></releaseNotes>    
+    <releaseNotes>https://visualvm.github.io/releases.html</releaseNotes>    
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/oracle/visualvm</projectSourceUrl>
     <docsUrl>https://visualvm.github.io/documentation.html</docsUrl>
