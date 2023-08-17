@@ -9,11 +9,12 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Description](#description)
-- [Development](#development)
-  - [Prerequisites](#prerequisites)
-  - [Update packages](#update-packages)
-  - [Push packages](#push-packages)
+- [Chocolatey Packages](#chocolatey-packages)
+  - [Description](#description)
+  - [Development](#development)
+    - [Prerequisites](#prerequisites)
+    - [Update packages](#update-packages)
+    - [Push packages](#push-packages)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -48,12 +49,12 @@ Install-Module au , wormies-au-helpers
 # Update all packages
 .\update_all.ps1
 
-# Update an invidual package
+# Update an individual package
 cd .\automatic\visualvm\
 .\update.ps1
-# This should build package like 'visualvm.2.1.4.nupkg'
+# This should build package like 'visualvm.2.1.6.nupkg'
 
-# Force update of an invidual package
+# Force update of an individual package
 $au_Force = $true; .\update.ps1
 ```
 
