@@ -5,6 +5,8 @@ on:
     paths: ["automatic/**", "!**/*.md"]
   #--- TODO: For now also enable manual runs
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Run every day at midnight UTC
 
 jobs:
   update-all:
